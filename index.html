@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+
   <title>Carnival Assignment</title>
 </head>
 <body>
   <h1>Welcome to the Carnival!</h1>
 
-  Place an image of a carnival here. <br>
-  <img src="https://placeholdit.imgix.net/~text?txtsize=47&txt=500%C3%97500&w=500&h=500" /> <br><br>
+  <br>
+  <img class="id" src="http://philly.happeningmag.com/wp-content/uploads/2016/04/Carnival_ferris_wheel.jpg" height="450" width="500"/> <br><br>
 
-  Ask the person how old they have to be to go on the ride, and how old they are here.<br><br>
-  When they click a button, tell them if they can go on the ride.<br><br>
+
+   <form id="movements">
+      <div class="edit">How old do you have to be to go on the ride?</div>
+      <input type="text" id="age1">
+      <br>
+      <br>
+      <div class="edit">How old are you?</div>
+      <input type="text" id="age2">
+      <br>
+      <br>
+      <button type="submit" id="result">Click here to find out if you can go on the ride</button>
+    </form>
+  
+  <div id="done"></div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script type="text/javascript" src="pic.js"></script>
+
+
+</body>
+
 </body>
 </html>
